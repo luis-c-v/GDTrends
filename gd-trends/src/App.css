@@ -36,3 +36,38 @@
     transform: rotate(360deg);
   }
 }
+
+@font-face {
+  font-family: sherpa-light;
+  src: url(fonts/GDSherpa-Light.otf);
+}
+
+@font-face {
+  font-family: sherpa-medium;
+  src: url(fonts/GDSherpa-Medium.otf);
+}
+
+@font-face {
+  font-family: sherpa-regular;
+  src: url(fonts/GDSherpa-Regular.otf);
+}
+
+@font-face {
+  font-family: sherpa-semibold;
+  src: url(fonts/GDSherpa-Semibold.otf);
+}
+
+@font-face {
+  font-family: sherpa-bold;
+  src: url(fonts/GDSherpa-Bold.otf);
+}
+
+@font-face {
+  font-family: sage-medium;
+  src: url(fonts/GDSage-Medium.otf)
+}
+
+@font-face {
+  font-family: sage-bold;
+  src: url(fonts/GDSage-Bold.otf);
+}
