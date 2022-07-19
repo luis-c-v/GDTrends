@@ -15,7 +15,17 @@
     column-gap: 50px;
 }
 
-/* .video {
+/* .iframe {
+    width: 160px;
+    height: 325px;
+} */
+
+.tiktok {
+    height: 300px;
+    width: 250px;
+}
+
+.video {
     height: 327px;
     width: 225px;
-} */
+}
