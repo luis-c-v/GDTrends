@@ -1,0 +1,48 @@
+.title {
+    font-family: sage-medium;
+    font-size: 1rem;
+    background-color: black;
+    border: solid;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    width: 20%;
+}
+
+.grid-container {
+    padding: 1rem;
+    display: grid;
+    grid-auto-flow: row dense;
+    gap: 20px;
+    row-gap: 40px;
+    column-gap: 20px;
+    width: 20%;
+    grid-template: repeat(4, 1fr) / repeat(2, 1fr);
+    border: solid;
+}
+
+.play {
+  background-color: #f4511e;
+  border: none;
+  color: white;
+  cursor: pointer;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.play:hover {
+    opacity: 1
+}
+
+.sound {
+    height: 100px;
+    width: 100px;
+    text-align: center;
+}
