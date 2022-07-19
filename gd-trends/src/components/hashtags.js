@@ -1,11 +1,14 @@
 import React from 'react';
-import '.../styles/hashtags.css';
+import '../styles/hashtags.css';
 
 // const hashtags = []
 
 const Hashtags = () => {
     return (
         <div className='hashtag-container'>
+            {/* <div className='title'>
+                Trending Hashtags
+            </div> */}
             <table>
                 <thead>
                     <tr>
@@ -14,9 +17,12 @@ const Hashtags = () => {
                 </thead>
                 <tbody>
                     {/* {hashtags.map((tag) => (
-                        <td>{tag.name}</td>
+                        <tr><td>{tag.name}</td></tr>
                     ))} */}
-                    <td>cheessy</td>
+                    <tr><td>#cheessy</td></tr>
+                    <tr><td>#butterbread</td></tr>
+                    <tr><td>#garlic</td></tr>
+                    <tr><td>#block</td></tr>
                 </tbody>
             </table>
         </div>
