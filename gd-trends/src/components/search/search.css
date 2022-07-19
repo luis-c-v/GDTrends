@@ -1,44 +1,42 @@
-.searchBar {
-    padding-left: 35px;
-    border: 0px solid transparent;
+.search-bar {
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-bottom: 1rem;
 }
-.searchButton{
-    width: 250px;
-    padding: 8px;
-    position: absolute;
-    top: 90px;
-    right: 595px;
-    margin-top: 20px;
-    cursor: pointer;
-    border: none;
-    color: black;
-    background-color: rgb(207, 252, 252);
+.search {
+    width: 100%;
 }
-.discoverButton{
-    width: 500px;
-    padding: 8px;
-    position: absolute;
-    top: 90px;    
-    right: 80px;
-    margin-top: 20px;
-    cursor: pointer;
-    border: none;
-    color: black;
-    background-color: rgb(207, 252, 252);
-}
-.topSearchList{
-    display: flex;
-    align-items: center;
+.search-button {
+    height: 3.25rem;
+    background-color: #00828C;
     margin: 0;
-    padding: 0;
-    list-style: none;
+    padding: 1rem;
+    cursor: pointer;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-family: sherpa-semibold;
 }
-.topSearchItem{
-    margin-right: 20px;
-    font-size: 30px;
+.discover-button {
+    height: 3.25rem;
+    background-color: #00828C;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+    font-family: sherpa-semibold;
 }
-.search-bar{
-    height: 20px;
-    width: 620px;
-    top: 50px;
+button:hover {
+    background-color: #00a9b5;
+}
+.grid-container {
+    display: grid;
+    column-gap: 0 !important;
+    grid-template-columns: 2fr 1fr 0.2fr 1fr;
+}
+.search-input{
+    width: 100%;
+    font-size: 16px;
+    background-color: rgb(228, 228, 228);
+    font-family: sherpa-semibold;
 }

@@ -15,9 +15,7 @@ const Header = () => (
                     |
                 </li>
                 <li className="topListItem">
-                    <img className="GDTrend-Logo"
-                    src={logo}
-                    alt="GoDaddy Logo" />  
+                    GD Trends  
                 </li>
             </ul>
         </div>

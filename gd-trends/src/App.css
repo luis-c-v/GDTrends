@@ -71,3 +71,10 @@
   font-family: sage-bold;
   src: url(fonts/GDSage-Bold.otf);
 }
+
+.content-container {
+  margin-left: 5rem;
+  margin-right: 5rem;
+  display: grid;
+  grid-template-columns: 71.5% 5% 23.5%;
+}
