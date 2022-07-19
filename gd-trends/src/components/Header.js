@@ -1,6 +1,5 @@
 import React from "react";
-import "../../styles/header.css";
-import logo from './GDTrends_logo.png';
+import "../styles/header.css";
 
 const Header = () => (
     <div className="header">

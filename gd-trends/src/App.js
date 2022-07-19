@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import Header from './components/header/Header';
-import Search from './components/search/Search';
+import Header from './components/Header';
+import Search from './components/Search';
 import Videos from './components/videos';
 import Hashtags from './components/hashtags.js';
 
