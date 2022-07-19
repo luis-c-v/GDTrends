@@ -3,6 +3,7 @@ import './App.css';
 import Header from './components/header/Header';
 import Search from './components/search/Search';
 import Videos from './components/videos';
+import Hashtags from './components/hashtags.js';
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
       <div className='content-container'>
         <Videos />
         <div></div>
-        <div>Placeholder for hashtags</div>
+        <Hashtags/>
       </div>
     </>
   );
