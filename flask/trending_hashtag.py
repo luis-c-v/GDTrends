@@ -77,4 +77,4 @@ def extract_video_details(video_info):
 # get_top_videos_for_hashtag("foryou")
 # simple()
 
-get_trending()
+# get_trending()
