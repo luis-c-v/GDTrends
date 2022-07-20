@@ -21,7 +21,7 @@ const Sounds = () => {
         <div>
             <div className='sound-container'>
                 <div className='title'>Popular Sounds</div>
-                <div className='grid-container'>
+                <div className='sounds-container'>
                     {/* {sounds.map((sound) => (
                         <div className='sound' onclick='playSound(sounds.url)>Play</div>
                     ))} */}
