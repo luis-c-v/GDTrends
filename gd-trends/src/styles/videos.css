@@ -1,31 +1,20 @@
 .title {
     font-family: sage-medium;
-    font-size: 1rem;
+    font-size: 1.5rem;
     background-color: black;
     color: white;
     padding: 1rem;
+    text-align: center;
 }
 
-.grid-container {
+.display-container {
     padding: 1rem;
     display: grid;
-    grid-auto-flow: column;
-    /* gap: 50px; */
     row-gap: 20px;
-    column-gap: 50px;
+    grid-auto-columns: 2;
+    grid-template-columns: auto auto;
 }
 
-/* .iframe {
-    width: 160px;
-    height: 325px;
-} */
-
-.tiktok {
-    height: 300px;
-    width: 250px;
-}
-
-.video {
-    height: 327px;
-    width: 225px;
+.video-container {
+    border: 1.5px solid black;
 }
