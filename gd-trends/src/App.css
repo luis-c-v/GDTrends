@@ -77,5 +77,8 @@
   margin-right: 5rem;
   display: grid;
   grid-template-columns: 71.5% 5% 23.5%;
-  /* grid-template-columns: 2.2fr 0.2fr 0.68fr; */
+}
+
+.spacer {
+  height: 2rem;
 }

@@ -13,10 +13,11 @@ function App() {
       <div className='content-container'>
         <Videos />
         <div></div>
-        <Hashtags/>
-        <div></div>
-        <div></div>
-        <Sounds/>
+        <div>
+          <Hashtags/>
+          <div className='spacer'></div>
+          <Sounds/>
+        </div>
       </div>
     </>
   );
