@@ -6,6 +6,9 @@ import '../styles/hashtags.css';
 const Hashtags = () => {
     return (
         <div className='hashtag-container'>
+            {/* <div className='title'>
+                Trending Hashtags
+            </div> */}
             <table>
                 <thead>
                     <tr>
