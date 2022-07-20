@@ -15,11 +15,6 @@
     grid-template-columns: auto auto;
 }
 
-.tiktok {
-    height: 300px;
-    width: 250px;
-}
-
 .video-container {
     border: 1.5px solid black;
 }

@@ -1,29 +1,47 @@
 import React from 'react';
 import '../styles/hashtags.css';
 
-// const hashtags = []
+const coffeeHashtags = [
+    "#nutellaicedcoffee",
+    "#coffeetiktok",
+    "asmr",
+    "coffeetok",
+    "coffeeaddict",
+    "caffeine",
+    "satisfying"
+]
+const discoverHashtags = [
+    "#ShowUrGrillSkillz",
+    "fyp",
+    "amazonfinds",
+    "Summer",
+    "FilmTeyvatIslands",
+    "SuperShow",
+    "couple"
+]
 
-const Hashtags = () => {
+function displayHashtags(hashtagList) {
+    const hashtags = hashtagList.map(tag => {
+        return <tr><td>{tag}</td></tr>
+    });
+    return <tbody>
+        {hashtags}
+    </tbody>
+}
+
+const Hashtags = (page) => {
     return (
         <div className='hashtag-container'>
-            {/* <div className='title'>
-                Trending Hashtags
-            </div> */}
             <table>
                 <thead>
                     <tr>
                         <th>Trending Hashtags</th>
                     </tr>
                 </thead>
-                <tbody>
-                    {/* {hashtags.map((tag) => (
-                        <tr><td>{tag.name}</td></tr>
-                    ))} */}
-                    <tr><td>#cheessy</td></tr>
-                    <tr><td>#butterbread</td></tr>
-                    <tr><td>#garlic</td></tr>
-                    <tr><td>#block</td></tr>
-                </tbody>
+                {page.page === "search" ? 
+                    displayHashtags(coffeeHashtags) :
+                    displayHashtags(discoverHashtags)
+                }
             </table>
         </div>
     )
