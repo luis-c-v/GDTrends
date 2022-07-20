@@ -3,7 +3,7 @@
     display: grid;
     grid-auto-flow: row dense;
     grid-row-gap: 1rem;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto;
     border: 1.5px solid black;
 }
 
