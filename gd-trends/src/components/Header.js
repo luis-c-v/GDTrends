@@ -1,6 +1,5 @@
 import React from "react";
-import "./header.css";
-import logo from './GDTrends_logo.png';
+import "../styles/header.css";
 
 const Header = () => (
     <div className="header">
@@ -15,9 +14,7 @@ const Header = () => (
                     |
                 </li>
                 <li className="topListItem">
-                    <img className="GDTrend-Logo"
-                    src={logo}
-                    alt="GoDaddy Logo" />  
+                    GD Trends  
                 </li>
             </ul>
         </div>

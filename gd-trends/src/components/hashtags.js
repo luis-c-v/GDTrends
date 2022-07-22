@@ -1,9 +1,35 @@
 import React from 'react';
-import '.../styles/hashtags.css';
+import '../styles/hashtags.css';
 
-// const hashtags = []
+const coffeeHashtags = [
+    "#nutellaicedcoffee",
+    "#coffeetiktok",
+    "#asmr",
+    "#coffeetok",
+    "#coffeeaddict",
+    "#caffeine",
+    "#satisfying"
+]
+const discoverHashtags = [
+    "#ShowUrGrillSkillz",
+    "#fyp",
+    "#amazonfinds",
+    "#Summer",
+    "#FilmTeyvatIslands",
+    "#SuperShow",
+    "#couple"
+]
 
-const Hashtags = () => {
+function displayHashtags(hashtagList) {
+    const hashtags = hashtagList.map(tag => {
+        return <tr><td>{tag}</td></tr>
+    });
+    return <tbody>
+        {hashtags}
+    </tbody>
+}
+
+const Hashtags = (page) => {
     return (
         <div className='hashtag-container'>
             <table>
@@ -12,12 +38,10 @@ const Hashtags = () => {
                         <th>Trending Hashtags</th>
                     </tr>
                 </thead>
-                <tbody>
-                    {/* {hashtags.map((tag) => (
-                        <td>{tag.name}</td>
-                    ))} */}
-                    <td>cheessy</td>
-                </tbody>
+                {page.page === "search" ? 
+                    displayHashtags(coffeeHashtags) :
+                    displayHashtags(discoverHashtags)
+                }
             </table>
         </div>
     )
